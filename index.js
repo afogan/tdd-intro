@@ -33,7 +33,7 @@ if (num1 === num2) {
  * makes10(4, 4); // false
  */
 export function makes10(num1, num2) {
-  /* TODO */
+return num1 === 10 || num2 === 10 || num1 + num2 === 10;
 }
 
 /**
@@ -51,7 +51,8 @@ export function makes10(num1, num2) {
  * near100(105, 10); // true
  */
 export function near100(n, distance) {
-  /* TODO */
+const difference = n - 100
+  return (Math.abs(difference) <= distance);
 }
 
 /**
