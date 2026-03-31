@@ -87,7 +87,7 @@ return n % 3 === 0 || n % 5 === 0;
  * shareLastDigit(10, 21); // false
  */
 export function shareLastDigit(num1, num2) {
-  /* TODO */
+  return num1 % 10 === num2 % 10;
 }
 
 /**
@@ -104,7 +104,7 @@ export function shareLastDigit(num1, num2) {
  * isColdAndHot(10, 50); // false
  */
 export function isColdAndHot(temp1, temp2) {
-  /* TODO */
+ return (temp1 < 0 && temp2 > 100) || (temp1 > 100 && temp2 < 0); 
 }
 
 /**
