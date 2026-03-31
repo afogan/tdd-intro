@@ -12,8 +12,13 @@
  * sumDouble(5, 5); // 20
  */
 export function sumDouble(num1, num2) {
-  /* TODO */
+const sum = num1 + num2;
+if (num1 === num2) {
+   return 2 * sum; 
+} else {
+  return sum;
 }
+  }
 
 /**
  * @param {number} num1 - First number.
