@@ -69,7 +69,7 @@ const difference = n - 100
  * isMultiple35(7); // false
  */
 export function isMultiple35(n) {
-  /* TODO */
+return n % 3 === 0 || n % 5 === 0;
 }
 
 /**
